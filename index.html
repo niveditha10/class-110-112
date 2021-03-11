@@ -1,0 +1,63 @@
+
+<html>
+  <head>
+    <title>MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <center>
+      <div class="header_div col-xs-12" >
+        <h1 id="heading">image identification<img src="logo.gif" id="logo_head"></h1>
+      </div>
+
+      <div class="col-sm-6 col-xs-12 camera_div">
+        <label class="labels">webcam view</label>
+        <div id="camera"></div>
+        <button class="take_image_button" class="btn btn-info" onclick="take_image()">take your image</button>
+
+      </div>
+      <div class="col-sm-6 col-xs-12 camera_div">
+        <label class="labels">captured image</label>
+        <div id="result"></div>
+        <button class="take_image_button" class="btn btn-success" onclick="check_image()">check your image</button>
+        
+      </div>
+
+
+    </center>
+    <div class="col-xs-12 footer_div">
+      <h4 class="col-xs-12 col-sm-6">
+        <img src="blub.gif" id="image_bulb">
+        <span id="object_name"></span>
+      </h4>
+      </div>
+<div class="copyright_footer">
+  developed by niveditha 
+</div>      
+
+
+    
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
